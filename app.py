@@ -1,4 +1,4 @@
-from flask import Flask, request, Response
+OB5151om flask import Flask, request, Response
 import asyncio, json, binascii, requests, aiohttp, urllib3
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
@@ -26,7 +26,7 @@ def gerar_cabecalhos(token):
         "Expect": "100-continue",
         "X-Unity-Version": "2018.4.11f1",
         "X-GA": "v1 1",
-        "ReleaseVersion": "OB51",
+        "ReleaseVersion": "OB50",
     }
 
 def criptografar_mensagem(dados):
